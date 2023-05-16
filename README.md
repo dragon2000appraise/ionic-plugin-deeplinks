@@ -1,10 +1,7 @@
-# Community Maintained
+# Custom Version
 
-This plugin is being maintained by the Ionic community. Interested in helping? Message `max` on ionic worldwide slack.
+This is a forked version of the unmaintained ionic-plugin-deeplinks project for Cordova. The plugin contained a bug that would create a bunch of blank <data> elements in the AndroidManifest.xml document and cause domain verification to fail for Android deeplinks/ applinks. This version stops those extra <data> elements being generated.
 
-Another great solution for deep links for Ionic is the Branch Metrics plugin: [https://github.com/BranchMetrics/cordova-ionic-phonegap-branch-deep-linking](https://github.com/BranchMetrics/cordova-ionic-phonegap-branch-deep-linking)
-
-If you used to handle URI schemes with the help of this plugin and have migrated to Branch Metrics, you can make use of a plugin such as [https://github.com/EddyVerbruggen/Custom-URL-scheme](https://github.com/EddyVerbruggen/Custom-URL-scheme) to facilitate custom URL schemes.
 
 Ionic Deeplinks Plugin
 ======
